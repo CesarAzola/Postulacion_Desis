@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #d9d9d9;
+}
+.card{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: .3rem .2rem .6rem .6rem rgba(89, 87, 87, 0.1);
+    margin: 1rem;
+}
+h1{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.card-input{
+    margin-bottom: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+.card-input label{
+    margin-bottom: 0.2rem;
+}
+.card-input input,select{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+.checkbox label{
+   margin-right: 0.5rem;
+    
+}
+.checkbox p{
+    margin-bottom: 0.4rem;
+}
+button{
+    display: inline-block;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(28, 123, 28);
+    color: white;
+}

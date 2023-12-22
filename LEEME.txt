@@ -1,0 +1,7 @@
+Version PHP 8.2.4
+Version Mysql 
+
+1-instalar XAMP
+2-Copiar la carpeta de la prueba y pegarla en la dentro de la carpeta htdocs
+3-Abrir un gestor de bases de datos y cargar la base de datos que se encuentra en la carpeta SQL
+4-Abrir el navegador en la ruta http://localhost/Postulacion_Desis/
